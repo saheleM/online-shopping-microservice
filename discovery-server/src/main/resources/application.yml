@@ -6,6 +6,7 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
 
+
 spring:
   application:
     name: discovery-server
@@ -19,6 +20,10 @@ spring:
     user:
       name: eureka
       password: password
+      basic:
+        enabled: true
+
+
 
 
 
